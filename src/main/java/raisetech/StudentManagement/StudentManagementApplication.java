@@ -14,7 +14,7 @@ public class StudentManagementApplication {
 	}
 
 	@GetMapping("hello")
-	public String love() {
+	public String hello() {
 		return "hello!";
 	}
 }
